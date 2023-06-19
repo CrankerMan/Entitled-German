@@ -3,8 +3,8 @@
 ENTITLED_CUSTOM_TITLE: "Benutzerdefinierter Name"
 ENTITLED_CUSTOM_NAME: "Der Name des Titels kann im Herrscher-Designer angepasst werden"
 
-entitled_copy_title_tooltip: "#T Titel kopieren #!\n\nVerwendung von Name und Wappen von [Scope.Title.GetNameNoTierNoTooltip] für den Primärtitel."
-entitled_set_de_jure_tooltip: "#T Titel de jure machen#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip] zu de jure Titeln des Primärtitels machen, wenn sie eines niedrigeren Rangs sind."
+entitled_copy_title_tooltip: "#T Titel kopieren #!\n\nVerwendung von Name und Wappen von [Scope.Title.GetNameNoTierNoTooltip] für den primären Titel."
+entitled_set_de_jure_tooltip: "#T Titel de jure machen#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip] zu de jure Titeln des primären Titels machen, wenn sie eines niedrigeren Rangs sind."
 entitled_remove_de_jure_tooltip: "#T De jure Titel aufgeben#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip] aufgeben."
 entitled_add_to_realm_tooltip: "#T In das Reich eingliedern#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip], die einen niedrigeren Rang haben, in das Reich einfügen, indem ihre Besitzer vassalisiert werden."
 entitled_remove_from_realm_tooltip: "#T Aus dem Reich entfernen#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip] aus dem Reich entfernen."
@@ -16,21 +16,21 @@ entitled_set_capital_county_tooltip: "#T Zum Hauptsitz machen#!\n\n[Scope.Title.
 entitled_pick_rank_tooltip: "Einen Rang auswählen"
 entitled_pick_capital_county_tooltip: "Einen Hauptsitz auswählen"
 
-entitled_independent_liege: "Als Vassal von [liege.GetNameNoTooltip] beginnen.\n\n#help Als Vasall eines Herrschers der einen Titel mit dem niedrigsten Rang, der höher als der des Primärtitels und de jure dem Hauptsitz übergeordnet ist, beginnen.#!"
-entitled_independent_no_liege: "Es gibt keinen Herrscher, der als Lehnsherr fungieren kann.\n\n#help Als Vasall eines Herrschers der einen Titel mit dem niedrigsten Rang, der höher als der des Primärtitels und de jure dem Hauptsitz übergeordnet ist, beginnen.#!"
+entitled_independent_liege: "Als Vassal von [liege.GetNameNoTooltip] beginnen.\n\n#help Als Vasall eines Herrschers der einen Titel mit dem niedrigsten Rang, der höher als der des primären Titels und de jure dem Hauptsitz übergeordnet ist, beginnen.#!"
+entitled_independent_no_liege: "Es gibt keinen Herrscher, der als Lehnsherr fungieren kann.\n\n#help Als Vasall eines Herrschers der einen Titel mit dem niedrigsten Rang, der höher als der des primären Titels und de jure dem Hauptsitz übergeordnet ist, beginnen.#!"
 entitled_independent_checked: "Als unabhängiger Herrscher spielen"
 
 # entitled_create_title_holding: "Titles you get"
 # entitled_create_title_vassal: "[THIS.Char.GetName]"
 # entitled_create_title_vassal_created: "[THIS.Title.GetHolder.GetName] loses [THIS.Title.GetName]"
 
-ENTITLED_OPEN: "Erschaffe eigenen Primärtitel"
+ENTITLED_OPEN: "Erschaffe eigenen primären Titel"
 ENTITLED_RANK: "Rang:"
 ENTITLED_INDEPENDENT: "#L Unabhängiger Start#!"
 ENTITLED_PRIMARY_TITLE: "Primärtitel:"
 ENTITLED_CHOSE_RANK: "Rang auswählen"
 ENTITLED_CHOSE_CAPITAL_COUNTY: "#TOOLTIP:ENTITLED_CHOSE_CAPITAL_COUNTY_TOOLTIP #L Hauptsitz auswählen#!#!"
-ENTITLED_CHOSE_CAPITAL_COUNTY_TOOLTIP: "#T Wähle einen Hauptsitz#!\n\nGrafschaft im Menü unten für de jure Titel auswählen"
+ENTITLED_CHOSE_CAPITAL_COUNTY_TOOLTIP: "#T Wähle einen Hauptsitz#!\n\n"
 ENTITLED_REALM_SIZE: "Reichsgröße: [GuiScope.ScriptValue('entitled_realm_size')|0]"
 ENTITLED_CAPITAL_COUNTY: "Hauptsitz:"
 ENTITLED_DOMAIN_SIZE: "Domäne: [GuiScope.ScriptValue('entitled_domain_size')|0]"
@@ -49,7 +49,7 @@ ENTITLED_MAPMODE_TOOLTIP: "Zurück zum Titelerstellungskartenmodus wechseln"
 ENTITLED_CLEAR_TOOLTIP: "Alle Änderungen verwerfen und neu anfangen"
 
 ENTITLED_MENU_CREATE_TITLE: "#T Titel erstellen#!\nEigenen Titel erstellen, inklusive Titelrang, Hauptsitz, Titelhierarchie, Reich und Besitztum"
-ENTITLED_MENU_CUSTOMIZE_TITLE: "#T Titel anpassen#!\n#help Coming soon!#!"
+ENTITLED_MENU_CUSTOMIZE_TITLE: "#T Titel anpassen#!\n#help In Bearbeitung!#!"
 
 ENTITLED_MENU_CUSTOMIZE_FAITH: "Glaube anpassen"
 ENTITLED_MENU_CUSTOMIZE_FAITH_DESC: "Grundsätze und Doktrinen bearbeiten"
@@ -106,7 +106,7 @@ ENTITLED_DE_JURE_LIEGE_AUTO: "De jure Lehnsherr automatisch auswählen"
 ENTITLED_DE_JURE_LIEGE_AUTO_PICK: "[SelectLocalization(GetGlobalVariable('entitled_de_jure_liege_auto').IsSet,'ENTITLED_DE_JURE_LIEGE_AUTO_AVAILABLE','ENTITLED_DE_JURE_LIEGE_AUTO_UNAVAILABLE')]"
 ENTITLED_DE_JURE_LIEGE_AUTO_AVAILABLE: "[GetGlobalVariable('entitled_de_jure_liege_auto').Title.GetBaseName]"
 ENTITLED_DE_JURE_LIEGE_AUTO_UNAVAILABLE: "#help Es gibt keinen Herrscher, der als de jure Lehnsherr fungieren kann. #!"
-ENTITLED_DE_JURE_LIEGE_AUTO_DESC: "Wählt automatisch den Titel mit dem niedrigsten Rang, der höher als der des Primärtitels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
+ENTITLED_DE_JURE_LIEGE_AUTO_DESC: "Wählt automatisch den Titel mit dem niedrigsten Rang, der höher als der des primären Titels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
 
 ENTITLED_DE_JURE_LIEGE_AUTO_INVALID: "@warning_icon! #warning Einen Rang und Hauptsitz auswählen#!"
 
@@ -122,7 +122,7 @@ ENTITLED_DE_JURE_LIEGE_CUSTOM_DESC: "Wählt den aktuell angepinnten Titel als de
 ENTITLED_DE_JURE_LIEGE_REMOVE: "De jure Lehnsherren entfernen"
 ENTITLED_DE_JURE_LIEGE_REMOVE_DESC: "Der Titel wird keinen de jure Lehnsherren haben"
 ENTITLED_DE_JURE_LIEGE_REMOVE_TEXT: "#help (Optional) #TOOLTIP:ENTITLED_DE_JURE_LIEGE_CHOOSE_TOOLTIP #underline De jure Lehnsherren auswählen#!#!#!"
-ENTITLED_DE_JURE_LIEGE_CHOOSE_TOOLTIP: "#T De jure Lehnsherren auswählen#!\n\n@paste_icon! wählt den aktuell angepinnten Titel aus.\n@auto_icon! wählt automatisch den Titel mit dem niedrigsten Rang, der höher als der des Primärtitels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
+ENTITLED_DE_JURE_LIEGE_CHOOSE_TOOLTIP: "#T De jure Lehnsherren auswählen#!\n\n@paste_icon! wählt den aktuell angepinnten Titel aus.\n@auto_icon! wählt automatisch den Titel mit dem niedrigsten Rang, der höher als der des primären Titels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
 
 
 ENTITLED_DE_FACTO_LIEGE: "[liege|E]:"
@@ -131,7 +131,7 @@ ENTITLED_DE_FACTO_LIEGE_AUTO: "Lehnsherr automatisch auswählen"
 ENTITLED_DE_FACTO_LIEGE_AUTO_PICK: "[SelectLocalization(GetGlobalVariable('entitled_de_facto_liege_auto').IsSet,'ENTITLED_DE_FACTO_LIEGE_AUTO_AVAILABLE','ENTITLED_DE_FACTO_LIEGE_AUTO_UNAVAILABLE')]"
 ENTITLED_DE_FACTO_LIEGE_AUTO_AVAILABLE: "[GetGlobalVariable('entitled_de_facto_liege_auto').Char.GetName]"
 ENTITLED_DE_FACTO_LIEGE_AUTO_UNAVAILABLE: "#help Es gibt keinen Herrscher, der als Lehnsherr fungieren kann.#!"
-ENTITLED_DE_FACTO_LIEGE_AUTO_DESC: "Wählt automatisch den Herrscher mit dem niedrigsten Rang, der höher als der des Primärtitels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
+ENTITLED_DE_FACTO_LIEGE_AUTO_DESC: "Wählt automatisch den Herrscher mit dem niedrigsten Rang, der höher als der des primären Titels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
 
 ENTITLED_DE_FACTO_LIEGE_CUSTOM: "Lehnsherr auswählen"
 ENTITLED_DE_FACTO_LIEGE_CUSTOM_PICK: "[SelectLocalization(GetGlobalVariable('entitled_pinned_ruler').IsSet,'ENTITLED_DE_FACTO_LIEGE_CUSTOM_AVAILABLE','ENTITLED_DE_FACTO_LIEGE_CUSTOM_UNAVAILABLE')]"
@@ -144,7 +144,7 @@ ENTITLED_DE_FACTO_LIEGE_CUSTOM_DESC: "Wählt den aktuell angepinnten Herrscher a
 ENTITLED_DE_FACTO_LIEGE_REMOVE: "Lehnsherr entfernen"
 ENTITLED_DE_FACTO_LIEGE_REMOVE_DESC: "Der Titelträger wird [independent|E]."
 ENTITLED_DE_FACTO_LIEGE_REMOVE_TEXT: "#help (Optional) #TOOLTIP:ENTITLED_DE_FACTO_LIEGE_CHOOSE_TOOLTIP #underline Lehnsherren auswählen#!#!#!"
-ENTITLED_DE_FACTO_LIEGE_CHOOSE_TOOLTIP: "#T Lehnsherren auswählen#!\n\n@paste_icon! wählt den aktuell angepinnten Herrscher aus.\n @auto_icon! wählt automatisch den Herrscher mit dem niedrigsten Rang, der höher als der des Primärtitels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
+ENTITLED_DE_FACTO_LIEGE_CHOOSE_TOOLTIP: "#T Lehnsherren auswählen#!\n\n@paste_icon! wählt den aktuell angepinnten Herrscher aus.\n @auto_icon! wählt automatisch den Herrscher mit dem niedrigsten Rang, der höher als der des primären Titels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
 
 # ENTITLED_DE_FACTO_LIEGE_SET: "[GetGlobalVariable('entitled_de_facto_liege').Char.GetName]"
 
@@ -224,7 +224,7 @@ entitled_create_title_independent: "Wird [independent|E]"
 entitled_create_title_de_jure: "De-jure-Anpassung"
 entitled_create_title_de_jure_detail: "[THIS.Title.GetName]"
 
-ENTITLED_PIN_TITLE_HELP: "Herrscher auswählen und @pin_icon! neben dem Primärtitel anklicken, oder die Suchfunktion benutzen."
+ENTITLED_PIN_TITLE_HELP: "Herrscher auswählen und @pin_icon! neben dem primären Titel anklicken, oder die Suchfunktion benutzen."
 
 
 
