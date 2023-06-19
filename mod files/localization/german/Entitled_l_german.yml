@@ -1,0 +1,241 @@
+﻿l_german:
+
+ENTITLED_CUSTOM_TITLE: "Benutzerdefinierter Name"
+ENTITLED_CUSTOM_NAME: "Der Name des Titels kann im Herrscher-Designer angepasst werden"
+
+entitled_copy_title_tooltip: "#T Titel kopieren #!\n\nVerwendung von Name und Wappen von [Scope.Title.GetNameNoTierNoTooltip] für den primären Titel."
+entitled_set_de_jure_tooltip: "#T Titel de jure machen#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip] zu de jure Titeln des primären Titels machen, wenn sie eines niedrigeren Rangs sind."
+entitled_remove_de_jure_tooltip: "#T De jure Titel aufgeben#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip] aufgeben."
+entitled_add_to_realm_tooltip: "#T In das Reich eingliedern#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip], die einen niedrigeren Rang haben, in das Reich einfügen, indem ihre Besitzer vassalisiert werden."
+entitled_remove_from_realm_tooltip: "#T Aus dem Reich entfernen#!\n\nAlle de jure Titel von [Scope.Title.GetNameNoTooltip] aus dem Reich entfernen."
+entitled_add_to_holdings_tooltip: "#T Besitztümer übernehmen#!\n\nAlle de jure Besitztümer von [Scope.Title.GetNameNoTooltip] übernehmen."
+entitled_remove_from_holdings_tooltip: "#T Besitztümer abgeben#!\n\nAlle im Besitz befindlichen, de jure Grafschaften von [Scope.Title.GetNameNoTooltip] abgeben. Sie werden im Reich verbleiben."
+ENTITLED_SET_DE_JURE_LIEGE_TOOLTIP: "#T De jure Lehnsherren auswählen#!\n\n[Scope.Title.GetNameNoTooltip]\n\n$ENTITLED_SET_DE_JURE_LIEGE_HELP$"
+entitled_set_capital_county_tooltip: "#T Zum Hauptsitz machen#!\n\n[Scope.Title.GetNameNoTooltip] zum Hauptsitz machen."
+
+entitled_pick_rank_tooltip: "Einen Rang auswählen"
+entitled_pick_capital_county_tooltip: "Einen Hauptsitz auswählen"
+
+entitled_independent_liege: "Als Vassal von [liege.GetNameNoTooltip] beginnen.\n\n#help Als Vasall eines Herrschers der einen Titel mit dem niedrigsten Rang, der höher als der des primären Titels und de jure dem Hauptsitz übergeordnet ist, beginnen.#!"
+entitled_independent_no_liege: "Es gibt keinen Herrscher, der als Lehnsherr fungieren kann.\n\n#help Als Vasall eines Herrschers der einen Titel mit dem niedrigsten Rang, der höher als der des primären Titels und de jure dem Hauptsitz übergeordnet ist, beginnen.#!"
+entitled_independent_checked: "Als unabhängiger Herrscher spielen"
+
+# entitled_create_title_holding: "Titles you get"
+# entitled_create_title_vassal: "[THIS.Char.GetName]"
+# entitled_create_title_vassal_created: "[THIS.Title.GetHolder.GetName] loses [THIS.Title.GetName]"
+
+ENTITLED_OPEN: "Erschaffe eigenen primären Titel"
+ENTITLED_RANK: "Rang:"
+ENTITLED_INDEPENDENT: "#L Unabhängiger Start#!"
+ENTITLED_PRIMARY_TITLE: "Primärtitel:"
+ENTITLED_CHOSE_RANK: "Rang auswählen"
+ENTITLED_CHOSE_CAPITAL_COUNTY: "#TOOLTIP:ENTITLED_CHOSE_CAPITAL_COUNTY_TOOLTIP #L Hauptsitz auswählen#!#!"
+ENTITLED_CHOSE_CAPITAL_COUNTY_TOOLTIP: "#T Wähle einen Hauptsitz#!\n\n"
+ENTITLED_REALM_SIZE: "Reichsgröße: [GuiScope.ScriptValue('entitled_realm_size')|0]"
+ENTITLED_CAPITAL_COUNTY: "Hauptsitz:"
+ENTITLED_DOMAIN_SIZE: "Domäne: [GuiScope.ScriptValue('entitled_domain_size')|0]"
+ENTITLED_CREATE_TITLE: "Titel erschaffen"
+
+
+knight_culture_player_plural_vanilla: "[GetPlayer.Custom( 'KnightCulturePlural' )]"
+knight_culture_player_plural_entitled: "[knights|E]"
+COA_TOOLTIP_HOLDER_vanilla: "[GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )]"
+
+entitled_create_title_county_removed: "#TOOLTIP:entitled_create_title_county_removed_tooltip #L Grafschaften entfernt#!#! from [county_removed.GetShortUIName]:"
+entitled_create_title_county_removed_tooltip: "#T Grafschaften entfernt#!\n\nDieser Herrscher hält Besitztümer außerhalb des Reiches\nAlle ihrer Grafschaften die innerhalb des Reiches liegen werden an einen neuen Grafen gegeben."
+entitled_create_title_county_lost: "     [TARGET_TITLE.GetName]"
+
+ENTITLED_MAPMODE_TOOLTIP: "Zurück zum Titelerstellungskartenmodus wechseln"
+ENTITLED_CLEAR_TOOLTIP: "Alle Änderungen verwerfen und neu anfangen"
+
+ENTITLED_MENU_CREATE_TITLE: "#T Titel erstellen#!\nEigenen Titel erstellen, inklusive Titelrang, Hauptsitz, Titelhierarchie, Reich und Besitztum"
+ENTITLED_MENU_CUSTOMIZE_TITLE: "#T Titel anpassen#!\n#help In Bearbeitung!#!"
+
+ENTITLED_MENU_CUSTOMIZE_FAITH: "Glaube anpassen"
+ENTITLED_MENU_CUSTOMIZE_FAITH_DESC: "Grundsätze und Doktrinen bearbeiten"
+
+ENTITLED_MENU_CONVERT_FAITH: "Glauben ändern"
+ENTITLED_MENU_CONVERT_FAITH_DESC: "Grafschaften und Herrschern konvertieren"
+
+ENTITLED_MENU_FAITH_PIN_MISSING: "Kein Glaube angepinnt"
+
+ENTITLED_MENU_FAITH_HELP: "Herrscher auswählen und @pin_icon! neben dem Glauben anklicken, oder die Suchfunktion benutzen"
+
+ENTITLED_MENU_CUSTOMIZE_CULTURE: "Kultur anpassen"
+ENTITLED_MENU_CUSTOMIZE_CULTURE_DESC: "Ethos, Kulturpfeiler und Traditionen bearbeiten"
+
+ENTITLED_MENU_CONVERT_CULTURE: "Kultur ändern"
+ENTITLED_MENU_CONVERT_CULTURE_DESC: "Grafschaften und Herrschern konvertieren"
+
+ENTITLED_MENU_DIVERGE_CULTURE_FEATURE_LOCKED: "Zugang zum "Kultur abzweigen"-Feature benötigt (aktuell nur verfügbar mit der Erweiterung "Royal Court")"
+ENTITLED_MENU_TITLE_CUSTOMIZATION_ONGOING: "Titelanpassung laufend.\nTitelerstellung abschließen oder alle Änderungen verwerfen."
+ENTITLED_MENU_CULTURE_PIN_MISSING: "Keine Kultur angepinnt"
+
+ENTITLED_MENU_CULTURE_HELP: "Herrscher auswählen und @pin_icon! neben der Kultur anklicken, oder die Suchfunktion benutzen"
+
+
+ENTITLED_WINDOW_TITLE: "Titel erstellen"
+
+ENTITLED_FAITH_WINDOW_DOCTRINE_TOOLTIP_WITH_FAITH:l "#T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[Scope.GetFlagName]\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]\n\n"
+
+ENTITLEMENT_THEOCRATIC_RULER_WARNING: "Ein nicht spielbarer theokratischer Herrscher wird erstellt"
+
+ENTITLED_FAITH: "Glaube:"
+ENTITLED_CULTURE: "Kultur:"
+
+
+ENTITLED_WINDOW_TITLE_CONVERT_FAITH: "Glaube ändern"
+ENTITLED_CONVERT_FAITH_ALL: "Konvertiert alle de jure Grafschaften von [Scope.Title.GetName].\nWenn die Grafschaft ein Hauptsitz ist, werden zusätzlich auch Herrscher und Hof konvertiert."
+ENTITLED_CONVERT_FAITH_RULERS: "Konvertiert alle Herrscher, deren Hauptsitz de jure Teil von [Scope.Title.GetName] ist, mit ihren Höflingen und Baronen."
+ENTITLED_CONVERT_FAITH_COUNTIES: "Konvertiert alle de jure Grafschaften von [Scope.Title.GetName]"
+ENTITLED_REVERT_FAITH_COUNTIES: "Setzt den Glauben aller Grafschaften von [Scope.Title.GetName] zurück. Dies gilt auch für alle Herrscher, deren de jure Hauptsitz Teil von[Scope.Title.GetName] ist, mit ihren Höflingen und Baronen."
+
+ENTITLED_WINDOW_TITLE_CONVERT_CULTURE: "Kultur ändern"
+ENTITLED_CONVERT_CULTURE_ALL: "Konvertiert alle Grafschaften von [Scope.Title.GetName].\nWenn die Grafschaft ein Hauptsitz ist, werden zusätzlich auch Herrscher und Hof konvertiert."
+ENTITLED_CONVERT_CULTURE_RULERS: "Konvertiert alle Herrscher, deren Hauptsitz de jure Teil von [Scope.Title.GetName] ist, mit ihren Höflingen und Baronen."
+ENTITLED_CONVERT_CULTURE_COUNTIES: "Konvertiert alle Grafschaften, die de jure Teil von [Scope.Title.GetName] sind."
+ENTITLED_REVERT_CULTURE_COUNTIES: "Setzt die Kultur aller Grafschaften von [Scope.Title.GetName] zurück. Dies gilt auch für alle Herrscher, deren de jure Hauptsitz Teil von[Scope.Title.GetName] ist, mit ihren Höflingen und Baronen."
+
+ENTITLED_FAITH_COUNTY_COUNT: "[Faith.MakeScope.ScriptValue('entitled_num_county_followers')] Counties"
+ENTITLED_CULTURE_COUNTY_COUNT: "[Culture.MakeScope.ScriptValue('entitled_culture_number_of_counties')] Counties"
+
+ENTITLED_DE_JURE_LIEGE: "[de_jure|E]:"
+ENTITLED_DE_JURE_LIEGE_SET: "[GetGlobalVariable('entitled_de_jure_liege').Title.GetName]"
+
+ENTITLED_DE_JURE_LIEGE_AUTO: "De jure Lehnsherr automatisch auswählen"
+ENTITLED_DE_JURE_LIEGE_AUTO_PICK: "[SelectLocalization(GetGlobalVariable('entitled_de_jure_liege_auto').IsSet,'ENTITLED_DE_JURE_LIEGE_AUTO_AVAILABLE','ENTITLED_DE_JURE_LIEGE_AUTO_UNAVAILABLE')]"
+ENTITLED_DE_JURE_LIEGE_AUTO_AVAILABLE: "[GetGlobalVariable('entitled_de_jure_liege_auto').Title.GetBaseName]"
+ENTITLED_DE_JURE_LIEGE_AUTO_UNAVAILABLE: "#help Es gibt keinen Herrscher, der als de jure Lehnsherr fungieren kann. #!"
+ENTITLED_DE_JURE_LIEGE_AUTO_DESC: "Wählt automatisch den Titel mit dem niedrigsten Rang, der höher als der des primären Titels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
+
+ENTITLED_DE_JURE_LIEGE_AUTO_INVALID: "@warning_icon! #warning Einen Rang und Hauptsitz auswählen#!"
+
+ENTITLED_DE_JURE_LIEGE_CUSTOM: "De jure Lehnsherren auswählen"
+ENTITLED_DE_JURE_LIEGE_CUSTOM_PICK: "[SelectLocalization(GetGlobalVariable('entitled_pinned_title').IsSet,'ENTITLED_DE_JURE_LIEGE_CUSTOM_AVAILABLE','ENTITLED_DE_JURE_LIEGE_CUSTOM_UNAVAILABLE')]"
+ENTITLED_DE_JURE_LIEGE_CUSTOM_AVAILABLE: "[SelectLocalization(GreaterThan_CFixedPoint(GetGlobalVariable('entitled_pinned_title').ScriptValue('entitled_title_tier'),GetGlobalVariable('custom_title').ScriptValue('entitled_title_tier')),'ENTITLED_DE_JURE_LIEGE_CUSTOM_VALID','ENTITLED_DE_JURE_LIEGE_CUSTOM_INVALID')]"
+ENTITLED_DE_JURE_LIEGE_CUSTOM_VALID: "[GetGlobalVariable('entitled_de_jure_liege_custom').Title.GetBaseName]"
+ENTITLED_DE_JURE_LIEGE_CUSTOM_INVALID: "#warning Der Rang von [GetGlobalVariable('entitled_de_jure_liege_custom').Title.GetName] ist nicht hoch genug"
+ENTITLED_DE_JURE_LIEGE_CUSTOM_UNAVAILABLE: "Es muss ein Titel angepinnt sein"
+ENTITLED_DE_JURE_LIEGE_CUSTOM_DESC: "Wählt den aktuell angepinnten Titel als de jure Lehnsherren aus"
+
+
+ENTITLED_DE_JURE_LIEGE_REMOVE: "De jure Lehnsherren entfernen"
+ENTITLED_DE_JURE_LIEGE_REMOVE_DESC: "Der Titel wird keinen de jure Lehnsherren haben"
+ENTITLED_DE_JURE_LIEGE_REMOVE_TEXT: "#help (Optional) #TOOLTIP:ENTITLED_DE_JURE_LIEGE_CHOOSE_TOOLTIP #underline De jure Lehnsherren auswählen#!#!#!"
+ENTITLED_DE_JURE_LIEGE_CHOOSE_TOOLTIP: "#T De jure Lehnsherren auswählen#!\n\n@paste_icon! wählt den aktuell angepinnten Titel aus.\n@auto_icon! wählt automatisch den Titel mit dem niedrigsten Rang, der höher als der des primären Titels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
+
+
+ENTITLED_DE_FACTO_LIEGE: "[liege|E]:"
+
+ENTITLED_DE_FACTO_LIEGE_AUTO: "Lehnsherr automatisch auswählen"
+ENTITLED_DE_FACTO_LIEGE_AUTO_PICK: "[SelectLocalization(GetGlobalVariable('entitled_de_facto_liege_auto').IsSet,'ENTITLED_DE_FACTO_LIEGE_AUTO_AVAILABLE','ENTITLED_DE_FACTO_LIEGE_AUTO_UNAVAILABLE')]"
+ENTITLED_DE_FACTO_LIEGE_AUTO_AVAILABLE: "[GetGlobalVariable('entitled_de_facto_liege_auto').Char.GetName]"
+ENTITLED_DE_FACTO_LIEGE_AUTO_UNAVAILABLE: "#help Es gibt keinen Herrscher, der als Lehnsherr fungieren kann.#!"
+ENTITLED_DE_FACTO_LIEGE_AUTO_DESC: "Wählt automatisch den Herrscher mit dem niedrigsten Rang, der höher als der des primären Titels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
+
+ENTITLED_DE_FACTO_LIEGE_CUSTOM: "Lehnsherr auswählen"
+ENTITLED_DE_FACTO_LIEGE_CUSTOM_PICK: "[SelectLocalization(GetGlobalVariable('entitled_pinned_ruler').IsSet,'ENTITLED_DE_FACTO_LIEGE_CUSTOM_AVAILABLE','ENTITLED_DE_FACTO_LIEGE_CUSTOM_UNAVAILABLE')]"
+ENTITLED_DE_FACTO_LIEGE_CUSTOM_AVAILABLE: "[SelectLocalization(GreaterThan_CFixedPoint(GetGlobalVariable('entitled_pinned_ruler').ScriptValue('entitled_ruler_tier'),GetGlobalVariable('custom_title').ScriptValue('entitled_title_tier')),'ENTITLED_DE_FACTO_LIEGE_CUSTOM_VALID','ENTITLED_DE_FACTO_LIEGE_CUSTOM_INVALID')]"
+ENTITLED_DE_FACTO_LIEGE_CUSTOM_VALID: "[GetGlobalVariable('entitled_de_facto_liege_custom').Char.GetName]"
+ENTITLED_DE_FACTO_LIEGE_CUSTOM_INVALID: "#warning Der Rang von [GetGlobalVariable('entitled_de_facto_liege_custom').Char.GetName] ist nicht hoch genug"
+ENTITLED_DE_FACTO_LIEGE_CUSTOM_UNAVAILABLE: "Einen Herrscher anpinnen"
+ENTITLED_DE_FACTO_LIEGE_CUSTOM_DESC: "Wählt den aktuell angepinnten Herrscher als Lehnsherren"
+
+ENTITLED_DE_FACTO_LIEGE_REMOVE: "Lehnsherr entfernen"
+ENTITLED_DE_FACTO_LIEGE_REMOVE_DESC: "Der Titelträger wird [independent|E]."
+ENTITLED_DE_FACTO_LIEGE_REMOVE_TEXT: "#help (Optional) #TOOLTIP:ENTITLED_DE_FACTO_LIEGE_CHOOSE_TOOLTIP #underline Lehnsherren auswählen#!#!#!"
+ENTITLED_DE_FACTO_LIEGE_CHOOSE_TOOLTIP: "#T Lehnsherren auswählen#!\n\n@paste_icon! wählt den aktuell angepinnten Herrscher aus.\n @auto_icon! wählt automatisch den Herrscher mit dem niedrigsten Rang, der höher als der des primären Titels ist, dessen Reich aktuell den Hauptsitz beinhaltet."
+
+# ENTITLED_DE_FACTO_LIEGE_SET: "[GetGlobalVariable('entitled_de_facto_liege').Char.GetName]"
+
+# ENTITLED_DE_FACTO_LIEGE_AUTO: "[SelectLocalization(And(GetGlobalVariable('custom_title').IsSet,GetGlobalVariable('capital_county').IsSet),Select_CString(GetGlobalVariable('entitled_de_facto_liege_auto').IsSet,'ENTITLED_DE_FACTO_LIEGE_AUTO_AVAILABLE','ENTITLED_DE_FACTO_LIEGE_AUTO_UNAVAILABLE'),'ENTITLED_DE_FACTO_LIEGE_AUTO_INVALID')]"
+# ENTITLED_DE_FACTO_LIEGE_AUTO_TOOLTIP: "#T Auto-select De Facto Liege#!\n\n[SelectLocalization(And(GetGlobalVariable('custom_title').IsSet,GetGlobalVariable('capital_county').IsSet),Select_CString(GetGlobalVariable('entitled_de_facto_liege_auto').IsSet,'ENTITLED_DE_FACTO_LIEGE_AUTO_AVAILABLE_TOOLTIP','ENTITLED_DE_FACTO_LIEGE_AUTO_UNAVAILABLE_TOOLTIP'),'ENTITLED_DE_FACTO_LIEGE_AUTO_INVALID')]\n\n$ENTITLED_DE_FACTO_LIEGE_AUTO_HELP$"
+
+# ENTITLED_DE_FACTO_LIEGE_AUTO_AVAILABLE: "[GetGlobalVariable('entitled_de_facto_liege_auto').Char.GetShortUIName]"
+# ENTITLED_DE_FACTO_LIEGE_AUTO_AVAILABLE_TOOLTIP: "[GetGlobalVariable('entitled_de_facto_liege_auto').Char.GetShortUIName] will be set as De Facto liege to the [GetGlobalVariable('custom_title').Title.GetName]"
+
+# ENTITLED_DE_FACTO_LIEGE_AUTO_UNAVAILABLE: "#help No valid De Facto liege#!"
+# ENTITLED_DE_FACTO_LIEGE_AUTO_UNAVAILABLE_TOOLTIP: "There is no valid De Facto liege for the [GetGlobalVariable('custom_title').Title.GetName]"
+
+# ENTITLED_DE_FACTO_LIEGE_AUTO_INVALID: "@warning_icon! #warning Pick a Rank and Capital County#!"
+# ENTITLED_DE_FACTO_LIEGE_AUTO_HELP: "#help Automatically selects the lowest tier Ruler above the Primary Title which currently includes the Capital County in its De Facto territory#!"
+
+# ENTITLED_DE_FACTO_LIEGE_CUSTOM: "[SelectLocalization(GreaterThan_CFixedPoint(GetGlobalVariable('entitled_de_facto_liege_custom').ScriptValue('entitled_ruler_tier'),GetGlobalVariable('custom_title').ScriptValue('entitled_title_tier')),GetGlobalVariable('entitled_de_facto_liege_custom').Char.GetShortUIName,'ENTITLED_DE_FACTO_LIEGE_CUSTOM_INVALID')]"
+# ENTITLED_DE_FACTO_LIEGE_CUSTOM_INVALID: "#warning [GetGlobalVariable('entitled_de_facto_liege_custom').Char.GetShortUIName] is not of high enough tier"
+
+# ENTITLED_DE_FACTO_LIEGE_CUSTOM_TOOLTIP: "#T Set De Facto Liege#!\n\n[SelectLocalization(GetGlobalVariable('entitled_pinned_ruler').IsSet,'ENTITLED_DE_FACTO_LIEGE_CUSTOM_AVAILABLE_TOOLTIP','ENTITLED_DE_FACTO_LIEGE_CUSTOM_UNAVAILABLE_TOOLTIP')]\n\n$ENTITLED_DE_FACTO_LIEGE_CUSTOM_HELP$"
+# ENTITLED_DE_FACTO_LIEGE_CUSTOM_AVAILABLE: "[GetGlobalVariable('entitled_pinned_ruler').Char.GetShortUIName]"
+# ENTITLED_DE_FACTO_LIEGE_CUSTOM_UNAVAILABLE: "@warning_icon! #warning Pin a Ruler to the Outliner#!"
+# ENTITLED_DE_FACTO_LIEGE_CUSTOM_HELP: "#help The pinned Ruler will be set as De Facto of the Primary Title if it is of higher tier"
+
+# ENTITLED_DE_FACTO_LIEGE_REMOVE: "#help (Optional) #TOOLTIP:ENTITLED_DE_FACTO_LIEGE_CHOOSE_TOOLTIP #underline Choose a De Facto liege#!#!#!"
+# ENTITLED_DE_FACTO_LIEGE_REMOVE_TOOLTIP: "#T Remove De Facto Liege#!\n\n#help The Primary Title will be independent#!"
+
+# ENTITLED_DE_FACTO_LIEGE_CHOOSE_TOOLTIP: "#T Choose De Facto Liege#!\n\n@paste_icon! Set the Ruler currently pinned in the Outliner\nor @auto_icon! Auto-select the Ruler with the lowest tier but higher than the Primary Title, and which currently includes the Capital County in its Realm."
+
+
+
+# ENTITLED_DE_FACTO_LIEGE: "Liege:"
+# ENTITLED_DE_FACTO_LIEGE_SET: "[GetGlobalVariable('entitled_de_jure_liege').Title.GetName]"
+# ENTITLED_DE_JURE_LIEGE_UNSET: "#help Chose title below or remain independent#!"
+
+
+# entitled_select_character: "Select a Character on the map"
+# entitled_selected_character_tier: "[GetGlobalVariable('entitled_selected_character').Char.GetShortUIName] is not of a high enough rank"
+# entitled_set_de_facto_liege_info: "\n#help The character last selected will be automatically picked for this."
+
+
+ENTITLED_FAITH_AUTO: "[SelectLocalization(GetGlobalVariable('capital_county').IsSet,GetGlobalVariable('capital_county').Title.GetCountyData.GetFaith.GetName,'ENTITLED_FAITH_AUTO_UNAVAILABLE_TOOLTIP')]"
+ENTITLED_FAITH_AUTO_TOOLTIP: "#T Glaube automatisch auswählen#!\n\n[SelectLocalization(GetGlobalVariable('capital_county').IsSet,'ENTITLED_CULTURE_AUTO_AVAILABLE_TOOLTIP','ENTITLED_CULTURE_AUTO_UNAVAILABLE_TOOLTIP')]\n\n$ENTITLED_CULTURE_AUTO_HELP$"
+ENTITLED_FAITH_AUTO_AVAILABLE_TOOLTIP: "[GetGlobalVariable('capital_county').Title.GetCountyData.GetFaith.GetName]"
+ENTITLED_FAITH_AUTO_UNAVAILABLE_TOOLTIP: "#warning Hauptsitz wählen#!"
+ENTITLED_FAITH_AUTO_HELP: "#help Wählt automatisch den Glauben des Hauptsitzes#!"
+ENTITLED_FAITH_CUSTOM: "[GetGlobalVariable('entitled_faith_custom').Faith.GetName]"
+ENTITLED_FAITH_CUSTOM_TOOLTIP: "#T Glaube auswählen#!\n\n[SelectLocalization(GetGlobalVariable('entitled_pinned_faith').IsSet,'ENTITLED_FAITH_CUSTOM_AVAILABLE_TOOLTIP','ENTITLED_FAITH_CUSTOM_UNAVAILABLE_TOOLTIP')]"
+ENTITLED_FAITH_CUSTOM_AVAILABLE_TOOLTIP: "[GetGlobalVariable('entitled_pinned_faith').Faith.GetName]"
+ENTITLED_FAITH_CUSTOM_UNAVAILABLE_TOOLTIP: "#warning Es muss ein Glaube angepinnt sein#!"
+
+ENTITLED_CULTURE_AUTO: "[SelectLocalization(GetGlobalVariable('capital_county').IsSet,GetGlobalVariable('capital_county').Title.GetCountyData.GetCulture.GetName,'ENTITLED_CULTURE_AUTO_UNAVAILABLE_TOOLTIP')]"
+ENTITLED_CULTURE_AUTO_TOOLTIP: "#T Kultur automatisch auswählen#!\n\n[SelectLocalization(GetGlobalVariable('capital_county').IsSet,'ENTITLED_CULTURE_AUTO_AVAILABLE_TOOLTIP','ENTITLED_CULTURE_AUTO_UNAVAILABLE_TOOLTIP')]\n\n$ENTITLED_CULTURE_AUTO_HELP$"
+# ENTITLED_CULTURE_AUTO_TOOLTIP: "test"
+ENTITLED_CULTURE_AUTO_AVAILABLE_TOOLTIP: "[GetGlobalVariable('capital_county').Title.GetCountyData.GetCulture.GetName]"
+ENTITLED_CULTURE_AUTO_UNAVAILABLE_TOOLTIP: "#warning Hauptsitz wählen#!"
+ENTITLED_CULTURE_AUTO_HELP: "#help Wählt automatisch die Kultur des Hauptsitzes#!"
+ENTITLED_CULTURE_CUSTOM: "[GetGlobalVariable('entitled_culture_custom').Culture.GetName]"
+ENTITLED_CULTURE_CUSTOM_TOOLTIP: "#T Kultur auswählen#!\n\n[SelectLocalization(GetGlobalVariable('entitled_pinned_culture').IsSet,'ENTITLED_CULTURE_CUSTOM_AVAILABLE_TOOLTIP','ENTITLED_CULTURE_CUSTOM_UNAVAILABLE_TOOLTIP')]"
+ENTITLED_CULTURE_CUSTOM_AVAILABLE_TOOLTIP: "[GetGlobalVariable('entitled_pinned_culture').Culture.GetName]"
+ENTITLED_CULTURE_CUSTOM_UNAVAILABLE_TOOLTIP: "#warning Es muss eine Kultur angepinnt sein#!"
+
+
+ENTITLED_FAITH_ITEM_TOOLTIP: "#I Anklicken um [Faith.GetNameNoTooltip] anzupinnen#!"
+ENTITLED_RELIGION_WINDOW_TITLE: "Glaube anpinnen"
+
+
+entitled_create_title_holding: "Titel"
+entitled_create_title_holding_detail: "[THIS.Title.GetName]"
+entitled_create_title_vassal: "Vassallen"
+entitled_create_title_vassal_detail: "[THIS.Char.GetName]"
+entitled_create_title_vassal_created: "[THIS.Title.GetHolder.GetName] verliert [THIS.Title.GetName]"
+
+entitled_create_title_de_jure_liege: "Wird [de_jure|E] Vassal von [de_jure_liege.GetName]"
+entitled_create_title_de_facto_liege: "Wird [vassal|E] von [de_facto_liege.GetShortUIName]"
+entitled_create_title_independent: "Wird [independent|E]"
+
+entitled_create_title_de_jure: "De-jure-Anpassung"
+entitled_create_title_de_jure_detail: "[THIS.Title.GetName]"
+
+ENTITLED_PIN_TITLE_HELP: "Herrscher auswählen und @pin_icon! neben dem primären Titel anklicken, oder die Suchfunktion benutzen."
+
+
+
+
+# CUSTOM TOOLTIP
+entitled_chose_rank_and_capital_county: "Rang und Hauptsitz auswählen"
+entitled_no_pinned_title: "Einen Titel anpinnen"
+entitled_no_pinned_ruler: "Einen Herrscher anpinnen"
+entitled_pinned_title_tier: "[GetGlobalVariable('entitled_pinned_title').Title.GetName] Rang ist zu niedrig"
+entitled_pinned_ruler_tier: "[GetGlobalVariable('entitled_pinned_ruler').Char.GetNamePossessive] Rang ist zu niedrig"
+
+ENTITLED_COMING_SOON: "#help Coming soon!"
+
+ENTITLED_CULTURE_SEARCH_TITLE: "Kultur anpinnen"
